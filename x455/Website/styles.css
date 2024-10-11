@@ -57,7 +57,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: #f7f3e3;
 }
 
 .hero::after {
@@ -79,7 +79,7 @@ nav ul li a {
 .hero-content h1 {
     font-size: 56px;
     font-weight: 700;
-    color: #ffffff;
+    color: #f7f3e3;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
@@ -90,7 +90,7 @@ nav ul li a {
     font-family: 'Magra', sans-serif;
     font-size: 24px;
     font-weight: 400;
-    color: #ffffff;
+    color: #f7f3e3;
     line-height: 1.5;
 }
 
