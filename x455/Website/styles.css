@@ -115,4 +115,9 @@ footer .social-icons a:hover {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
+    .magra-bold {
+        font-family: "Magra", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
 }
