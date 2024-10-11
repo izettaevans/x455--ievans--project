@@ -106,3 +106,13 @@ footer .social-icons a {
 footer .social-icons a:hover {
     color: #000;
 }
+
+.hero-content h1 {
+    font-family: 'Magra', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
