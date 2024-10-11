@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 
+/* Apply the Magra font to the entire body */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Magra', sans-serif;
     color: #333;
     line-height: 1.6;
 }
@@ -73,14 +74,23 @@ nav ul li a {
     z-index: 1;
 }
 
-.hero h1 {
-    font-size: 4rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+/* Apply the Magra font to the hero heading */
+.hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
-.hero p {
-    font-size: 1.5rem;
+/* Apply the Magra font to the paragraph as well */
+.hero-content p {
+    font-family: 'Magra', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.5;
 }
 
 footer {
@@ -105,19 +115,4 @@ footer .social-icons a {
 
 footer .social-icons a:hover {
     color: #000;
-}
-
-.hero-content h1 {
-    font-family: 'Magra', sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    color: #333;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-    .magra-bold {
-        font-family: "Magra", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-      }
 }
