@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Magra', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #3c4a35;
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3rem 1rem;
+    background-color: #f7f3e3;
+}
+
+.logo img {
+    width: 140px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 25px; /* Adjust the size as needed */
+    font-weight: bold;
+}
+
+.cart-search {
+    display: flex;
+    gap: 1rem;
+}
+
+.cart-icon, .search-icon {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    color: #f7f3e3;
+    padding: 2rem 0;
+    position: relative;
+}
+
+/* Heading Styling */
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* Main carousel container */
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%; /* Adjust the width of the carousel */
+}
+
+/* Main large image styling */
+.main-image img {
+    width: 600px; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the entire area, maintaining aspect ratio */
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+/* Thumbnail container styling */
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Thumbnail styling */
+.thumbnail {
+    width: 100px; /* Set a fixed width for all thumbnails */
+    height: 100px; /* Set a fixed height for all thumbnails */
+    object-fit: cover; /* Ensures the thumbnails are resized to fit the dimensions while maintaining aspect ratio */
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+.thumbnail:hover {
+    opacity: 1; /* Hover effect for thumbnails */
+}
+
+/* Optional: Styling for when a thumbnail is selected */
+.thumbnail.selected {
+    border: 2px solid #333; /* Highlight selected thumbnail */
+}
+
+/* Scrollable Text */
+.scrollable-text {
+    height: 100px;
+    overflow-y: auto;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: #f7f3e3;
+    color: #333;
+    width: 80%;
+    border-radius: 10px;
+}
+.scrollable-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #f7f3e3;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}

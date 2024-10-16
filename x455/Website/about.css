@@ -17,25 +17,25 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: .3rem 1rem;
     background-color: #f7f3e3;
 }
 
 .logo img {
-    width: 120px;
+    width: 140px;
     height: auto;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 3.5rem;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
-    font-size: 1.1rem;
+    font-size: 25px; /* Adjust the size as needed */
     font-weight: bold;
 }
 
@@ -97,7 +97,15 @@ footer p {
     margin-bottom: 0.5rem;
 }
 
-footer .social-icons img {
+footer .social-icons a {
+    text-decoration: none;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #333;
     margin: 0 0.5rem;
-    vertical-align: middle;
+}
+
+footer .social-icons a:hover {
+    color: #000;
 }

@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Magra', sans-serif;
+    color: #333;
+    background-color: #e9e6db;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3rem 1rem;
+    background-color: #f7f3e3;
+}
+
+.logo img {
+    width: 140px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 25px; /* Adjust the size as needed */
+    font-weight: bold;
+}
+
+.cart-search {
+    display: flex;
+    gap: 1rem;
+}
+
+.cart-icon, .search-icon {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.planning-section {
+    background-color: #43513c; /* Same as the navigation bar */
+    padding: 1rem 0; /* Add some padding for better appearance */
+}
+
+.planning-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #f7f3e3;
+    text-align: center;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table thead {
+    background-color: #f7f3e3;
+    color: #43513c;
+}
+
+table th {
+    padding: 15px;
+    border: 1px solid #f7f3e3;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table td {
+    padding: 15px;
+    border: 1px solid #f7f3e3;
+    color: #f7f3e3;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table tbody td img {
+    width: 200px; /* Adjust the width to your preference */
+    height: auto; /* Keeps the image's aspect ratio */
+    object-fit: cover; /* Ensures the image fits nicely within the width */
+}
+
+/* Footer */
+footer {
+    background-color: #f7f3e3;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0.5rem;
+}
+
+footer .social-icons a:hover {
+    color: #000;
+}
